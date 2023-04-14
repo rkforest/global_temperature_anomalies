@@ -1,0 +1,23 @@
+name: gta
+channels:
+- conda-forge
+
+dependencies:
+- python
+
+# core
+- numpy
+- pandas
+- xarray
+- rioxarray
+- matplotlib
+- seaborn
+
+# Jupyter environment
+- autopep8  
+- jupyterlab
+- notebook
+- ipython
+- ipykernel
+- jupyter_contrib_nbextensions 
+- nbgitpuller
