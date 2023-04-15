@@ -4,20 +4,13 @@ channels:
 
 dependencies:
 - python
-
-# core
 - numpy
 - pandas
 - xarray
 - rioxarray
 - matplotlib
 - seaborn
-
-# Jupyter environment
-- autopep8  
+- cartopy 
 - jupyterlab
-- notebook
-- ipython
-- ipykernel
-- jupyter_contrib_nbextensions 
-- nbgitpuller
+
+
