@@ -1,16 +1,44 @@
-name: gta
+name: kr
 channels:
 - conda-forge
 
 dependencies:
 - python
+
+# core
 - numpy
 - pandas
+- geopandas
+- earthpy
 - xarray
 - rioxarray
+- scipy
+- scikit-learn
+
+# plotting
 - matplotlib
 - seaborn
-- cartopy 
+- cartopy
+
+# database
+- sqlalchemy
+- psycopg2
+
+# climate data store
+- cdsapi
+- cfgrib
+
+# spatial packages
+- geojson 
+- regionmask
+
+# Jupyter environment
+- autopep8  
 - jupyterlab
-
-
+- jupyterlab-git
+- jupyterhub
+- notebook
+- ipython
+- ipykernel
+- ipympl
+- jupyter_contrib_nbextensions 
